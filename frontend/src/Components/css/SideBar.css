@@ -1,7 +1,11 @@
 .parent{
     width: 400px;
-    border: solid 1px;
-  
+    height: 100%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+}
+.container{
+    margin: auto auto auto 20px;
 }
 .color{
     margin: auto auto auto auto;
@@ -25,6 +29,31 @@
     gap: 5px;
 }
 .genderWomen{
+    display: flex;
+    gap: 5px;
+}
+
+.childPrice1{
+    display: flex;
+    gap: 5px;
+}
+.childPrice2{
+    display: flex;
+    gap: 5px;
+}
+.childPrice3{
+    display: flex;
+    gap: 5px;
+}
+.polo{
+    display: flex;
+    gap: 5px;
+}
+.hoodie{
+    display: flex;
+    gap: 5px;
+}
+.basic{
     display: flex;
     gap: 5px;
 }

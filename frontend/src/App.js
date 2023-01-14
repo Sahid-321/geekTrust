@@ -1,13 +1,17 @@
 import CartPage from "./Components/CartPage";
 import ProductsPage from "./Components/ProductsPage";
-import SideBar from "./Components/SideBar";
+import {Route, Routes} from "react-router-dom"
 
 
 const App = ()=>{
   return (
     <div>
-      <ProductsPage/>
-      <CartPage/>
+     <Routes>
+      <Route path="/" element={<ProductsPage/>} />
+      <Route path="/cartpage" element={<CartPage/>} />
+     </Routes>
+      
+      
       
     </div>
   );

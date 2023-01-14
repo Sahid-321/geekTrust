@@ -1,8 +1,9 @@
 
-const CartPage = ()=>{
+const CartPage = (props)=>{
+
     return(
         <>
-        
+       this is cart
         </>
     )
 }

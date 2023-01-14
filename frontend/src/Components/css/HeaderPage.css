@@ -1,0 +1,24 @@
+.parentHeader{
+    width: 90%;
+    background-color: rgb(255, 251, 251);
+    margin: auto auto auto auto;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;}
+.containerHeader{
+    display: flex;
+    gap: 40px;
+    justify-content: flex-end;
+  padding: 5px;
+  margin-right: 50px;
+}
+
+.containerHeader p{
+    color: rgb(0, 0, 0);
+    border-bottom: solid 2px;
+}
+.containerHeader img{
+  
+    color: rgb(255, 255, 255);
+    margin: auto 0 auto 0;
+cursor: pointer;
+}

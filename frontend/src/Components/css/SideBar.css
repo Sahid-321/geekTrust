@@ -1,0 +1,30 @@
+.parent{
+    width: 400px;
+    border: solid 1px;
+  
+}
+.color{
+    margin: auto auto auto auto;
+    
+}
+.colorRed{
+    display: flex;
+    gap: 5px;
+}
+.colorBlue{
+    display: flex;
+    gap: 5px;
+}
+.colorGreen{
+    display: flex;
+    gap: 5px;
+}
+
+.genderMen{
+    display: flex;
+    gap: 5px;
+}
+.genderWomen{
+    display: flex;
+    gap: 5px;
+}

@@ -1,0 +1,68 @@
+.items {
+    width: 55%;
+    display: grid;
+    gap: 10px;
+    border: solid 1px;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 0%
+}
+
+.childItems {
+    width: 250px;
+    height: 220px;
+    border: solid 1px;
+    margin: auto auto auto auto;
+
+}
+.itemImage{
+    display: block;
+    border: solid 1px;
+    width: 220px;
+    height: 130px;
+    margin: auto auto auto auto;
+}
+.itemImage img{
+
+    width: 200px;
+    height: 120px;
+    margin: auto auto auto auto;
+}
+.itemPriceCart{
+  
+display: flex;
+justify-content: space-around;
+gap: 20px;
+border: solid 1px;
+}
+
+.itemPriceCart button{
+    height: 30px;
+    margin-top: 6px;
+    background-color: black;
+    color: white;
+}
+
+.searchItems{
+    display: flex;
+    justify-content: center;
+    gap: 3px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.searchItems input{
+   width: 250px;
+   border: none;
+   border-bottom: solid 1px;
+}
+.searchItems button{
+   
+    background-color: black;
+    color: white;
+ }
+
+ .leftAllignSideBar{
+    margin-left: 100px;
+    display: flex;
+    gap: 110px;
+
+ }

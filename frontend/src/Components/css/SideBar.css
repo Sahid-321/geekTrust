@@ -4,6 +4,19 @@
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 
 }
+
+@media  (max-width: 480px) {
+    .parent{
+       
+        width: 400px;
+        height: 100%;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    
+    }
+    .hideParent{
+        display: none;
+    }
+  }
 .container{
     margin: auto auto auto 20px;
 }

@@ -3,11 +3,81 @@
     display: grid;
     gap: 10px;
     grid-template-columns: repeat(3, 1fr);
-    margin-left: 0%; 
+    margin: auto auto auto auto;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 
 }
 
+@media  (max-width: 480px) {
+  
+    .items {
+        width: auto;
+        display: grid;
+        gap: 10px;
+        grid-template-columns: repeat(1, 1fr);
+        margin: auto auto auto -80px;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    }
+    .childItems {
+        width: auto;
+        height: auto;
+        margin: auto auto auto auto;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    
+    }
+
+    .leftAlignSideBar{
+        margin-left: 0px;
+        display: flex;
+        gap: 0px;
+    
+     }
+    .filterBtn{
+        display: block ;
+    }
+    .itemHide{
+        display: none;
+    }
+  }
+
+  @media  (max-width: 896px) {
+  
+    .items {
+        width: auto;
+        display: grid;
+        gap: 10px;
+        grid-template-columns: repeat(1, 1fr);
+        margin: auto auto auto -30px;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    }
+    .childItems {
+        width: auto;
+        height: auto;
+        margin: auto auto auto auto;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    
+    }
+
+    .leftAlignSideBar{
+        margin-left: 0px;
+        display: flex;
+        gap: 0px;
+    
+     }
+    .filterBtn{
+        display: block ;
+    }
+    .itemHide{
+        display: none;
+    }
+  }
+
+  @media  (min-width: 480px) {
+
+.filterBtn{
+    display: none;
+}
+  }
 .childItems {
     width: 250px;
     height: 220px;

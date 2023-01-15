@@ -4,6 +4,25 @@
     margin: auto auto auto auto;
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;}
+
+    @media (min-width:410px) {
+        .parentHeader{
+            width: auto;
+            background-color: rgb(255, 251, 251);
+            margin: auto auto auto auto;
+            border-radius: 5px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;}
+    }
+
+    @media  (max-width: 896px) {
+        .parentHeader{
+            width: auto;
+            background-color: rgb(255, 251, 251);
+            margin: auto auto auto auto;
+            border-radius: 5px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;}
+    
+    }
 .containerHeader{
     display: flex;
     gap: 40px;

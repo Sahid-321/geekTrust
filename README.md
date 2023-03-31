@@ -2,7 +2,7 @@
 Online store where you can search, sort and filter the product
 
 
-# CoSchedule Clone
+# Online Store
 
 
 
